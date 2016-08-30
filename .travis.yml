@@ -1,0 +1,14 @@
+language: cpp
+
+compiler:  
+    - gcc
+
+before_script:
+    - sudo apt-get install build-essential
+    - sudo apt-get install cmake
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make
+
+script: ./tests/order 
