@@ -4,6 +4,7 @@ compiler:
     - gcc
 
 before_script:
+    - git submodule update --init --recursive
     - sudo apt-get install build-essential
     - sudo apt-get install cmake
     - mkdir build
