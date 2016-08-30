@@ -4,6 +4,23 @@
 
 This repository contains the example discussed in Martin Fowler's ["Mocks Aren't Stubs"](http://martinfowler.com/articles/mocksArentStubs.html) implemented in C++ using [GMock](https://github.com/google/googletest).
 
+## Building
+
+Make sure to recursively clone, or use:
+
+    git submodule update --init --recursive
+
+Then build using:
+
+    sudo apt-get install build-essential cmake
+    mkdir build
+    cd build
+    # Make sure to build GMock!
+    cmake .. -DBUILD_GMOCK=On
+    make
+
+Also see `.travis.yml`.
+
 ## License
 
 Original idea by Martin Fowler.
