@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8)
-project (dsa)
+project (googlemock_example)
 
 set(CMAKE_CXX_FLAGS  "-Wall -Wno-sign-compare -g -std=c++0x -O4")
 

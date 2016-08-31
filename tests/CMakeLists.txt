@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8)
-project (sparse_coding)
+project (googlemock_example)
 
 include_directories(../ ../vendor/googletest/googletest/include ../vendor/googletest/googlemock/include)
 add_executable(order order.cpp)
