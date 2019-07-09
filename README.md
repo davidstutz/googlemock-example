@@ -10,7 +10,7 @@ Make sure to recursively clone, or use:
 
     git submodule update --init --recursive
 
-Then build using:
+Then, on Ubuntu, build using:
 
     sudo apt-get install build-essential cmake
     mkdir build
